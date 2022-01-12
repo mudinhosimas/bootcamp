@@ -1,0 +1,13 @@
+body{
+    background: #ccc;
+}
+
+#titulo, .subtitulo {
+ color: blue;
+ margin: 5px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-style: italic;
+}
