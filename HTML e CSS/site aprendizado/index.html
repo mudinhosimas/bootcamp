@@ -3,12 +3,24 @@
     <head>
         <meta charset="utf-8">
         <title>mudinho</title>
-        <link rel="stylesheet" href="css/estilo.css">
+        <!--estilo customizado-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!--normalize css-->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
     </head>
     <body>
-    <header>
-        <img src="img/foto-perfil.png" alt="foto perfil">
-        <h1 id="titulo">mudinho</h1>
+    <header id="cabecalho">
+        <img src="img/foto-perfil.png" alt="foto perfil" width="300px" height="300px">
+        <h1>Mudinho</h1>
+        
+    </header>
+    <section id="menu">
+        <h2>Posts</h2>
+    </section>
+
+    <article class="artigo">
+        <h3>#Post 1</h3>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet turpis in purus porttitor, 
             nec lacinia tortor lacinia. Donec eu magna vitae lorem lacinia euismod quis eget libero. 
@@ -23,24 +35,16 @@
         </p>
         <img src="img/html-cod.jpeg" alt="código HTML"><br>
         <a href="https://www.google.com.br" target="blank">referencia</a>
-    </header>
-    <section>
-        <h2 class="subtitulo">realmente é o mudinho</h2>
-    </section>
+    </article>
 
     <footer>
         site do mudo
     <!--da pra colocar o <a href="" target="blank"> dentro das listas pra fazer tipo uma lista de contatos-->    
     <ul>
-        <li>coiso 1</li>
-        <li>coiso 2</li>
-        <li>coiso 3</li>
+        <li><a href="blank">coiso 1</a></li>
+        <li><a href="blank">coiso 2</a></li>
+        <li><a href="blank">coiso 3</a></li>
     </ul>
-    <ol>
-        <li>outro coiso 1</li>
-        <li>outro coiso 2</li>
-        <li>outro coiso 3</li>
-    </ol>
     </footer>
     </body>
 </html>

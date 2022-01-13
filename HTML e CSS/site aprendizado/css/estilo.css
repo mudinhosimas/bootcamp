@@ -1,13 +1,40 @@
 body{
     background: #ccc;
+    text-align: justify;
 }
 
-#titulo, .subtitulo {
- color: blue;
- margin: 5px;
+#cabecalho {
+    margin: 10px 50px;
 }
 
-.subtitulo {
-    font-size: 16px;
-    font-style: italic;
+#cabecalho img {
+    border-radius: 80%;
+    border: 3px solid black;
+}
+
+#menu {
+    margin: 10px 50px;
+}
+
+.artigo {
+    margin: 10px 35px;
+    border: 5px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.artigo a {
+    color: black;
+}
+
+footer {
+    margin:  10px 50px;
+}
+
+footer ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 5px;
 }
