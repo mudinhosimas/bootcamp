@@ -1,0 +1,25 @@
+.navbar {
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.margin-quem-somos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.margin-parceiros {
+    padding-bottom: 30px;
+}
+
+.margin-servicos {
+    padding-bottom: 30px;
+}
+
+.margin-footer{
+    margin-top: 35px;
+}
+
+.p-servicos{
+    margin-top: 50px;
+}
